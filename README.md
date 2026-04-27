@@ -121,6 +121,7 @@ The system avoids hallucination by:
 
 ## What I would improve next
 - Replace TF-IDF with embedding-based retrieval
+- Reducing response time so customer doesn't have to wait long 
 - Improve Arabic quality with better post-processing
 - Add personalization (child age, preferences)
 - Deploy as a chat-based assistant (e.g., WhatsApp)

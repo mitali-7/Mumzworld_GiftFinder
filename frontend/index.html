@@ -34,8 +34,10 @@
     }
     else {
     resultDiv.innerText = data.recommendations.map(p => 
-        `${p.name} - ${p.price_aed} AED\n${p.reasoning}\n\n`
-    ).join("\n");
+  `${p.name} - ${p.price_aed} AED\n` +
+  `${p.reasoning}\n` +
+  `💬 What moms say: ${p.moms_say}\n\n`
+).join("\n")
     }
 }
   </script>
