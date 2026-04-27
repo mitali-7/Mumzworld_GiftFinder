@@ -42,15 +42,39 @@ Instead of relying on ratings or generic descriptions, the system extracts insig
 
 ## Tooling
 
-- Used **Groq API (LLaMA 3.3 70B)** for intent extraction and response generation  
-- Used **FastAPI** to build and test endpoints locally  
-- Used **Swagger UI (/docs)** for quick API testing  
-- Built a simple **HTML frontend** to simulate real user interaction  
-- Used **custom eval script (run_evals.py)** to test multiple queries  
-- Used AI assistants for:
-  - structuring prompts
-  - debugging API integration
-  - refining evaluation approach  
+I used ChatGPT and Claude as coding assistants throughout the project, mainly in a pair-programming style rather than relying on full automation.
+
+### Models / Tools Used
+- ChatGPT and Claude for code generation, prompt design, and debugging  
+- Groq (LLaMA 3.3 70B) as the runtime model for intent extraction and response generation  
+
+### How I Used Them
+- Started with high-level brainstorming (problem framing and architecture decisions)  
+- Used them to scaffold the FastAPI backend and structure the RAG pipeline  
+- Iteratively refined prompts for:
+  - intent extraction  
+  - “moms_say” generation  
+  - multilingual (English + Arabic) output  
+- Used them to debug issues (API integration, JSON formatting, eval script errors)  
+- Treated them as a **pair programmer**, not an autonomous agent (no agent loops)
+
+### What Worked
+- Rapid iteration on prompts improved grounding and reduced generic responses  
+- Faster debugging and integration (especially Groq + FastAPI setup)  
+- Helped structure evaluation logic and edge case handling  
+
+### What Didn’t Work Well
+- Initial outputs were too generic (“moms love this...”) and required multiple prompt refinements  
+- Arabic output needed additional constraints to avoid literal translations  
+- LLM sometimes generalized beyond reviews, requiring stricter grounding instructions  
+
+### Where I Stepped In
+- Designed the overall system architecture (retrieval-first approach)  
+- Implemented deterministic logic (TF-IDF retrieval, review filtering, regex for budget extraction)  
+- Defined evaluation criteria and manually validated outputs  
+- Adjusted prompts and minor post-processing to ensure outputs stayed grounded  
+
+### Example Prompt Constraint
 
 The focus was on building a working system quickly rather than over-engineering.
 
