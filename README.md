@@ -40,6 +40,20 @@ Instead of relying on ratings or generic descriptions, the system extracts insig
 - **Validation**: Pydantic  
 - **Frontend**: Simple HTML + JS  
 
+## Tooling
+
+- Used **Groq API (LLaMA 3.3 70B)** for intent extraction and response generation  
+- Used **FastAPI** to build and test endpoints locally  
+- Used **Swagger UI (/docs)** for quick API testing  
+- Built a simple **HTML frontend** to simulate real user interaction  
+- Used **custom eval script (run_evals.py)** to test multiple queries  
+- Used AI assistants for:
+  - structuring prompts
+  - debugging API integration
+  - refining evaluation approach  
+
+The focus was on building a working system quickly rather than over-engineering.
+
 ## How to run
 
 ### 1. Setup environment
@@ -86,19 +100,26 @@ For each query, I checked:
 
 ### Results
 
-All test cases passed under the defined checks.
+The system was tested on 10 queries covering normal, edge, and invalid cases.
 
-### Examples:
-
-- "gift for 6 month old under 100 AED" → relevant recommendations  
-- "gift under 10 AED" → no results + uncertainty  
-- "laptop for coding" → correctly marked as out-of-scope  
-- "gift for baby" → broader but still valid recommendations  
+| Query | Expected Behavior | Result |
+|------|-----------------|--------|
+| gift for 6 month old under 100 AED | relevant recommendations | PASS |
+| gift for newborn baby shower | relevant recommendations | PASS |
+| gift under 10 AED | no results | PASS |
+| gift for 3 year old under 50 AED | filtered results | PASS |
+| laptop for coding | out_of_scope | PASS |
+| gift for baby | broader recommendations | PASS |
+| cheap gift for 1 month old | relevant recommendations | PASS |
+| birthday gift for toddler | relevant recommendations | PASS |
+| empty query | handled safely | PASS |
+| gift for twins 6 months under 200 | relevant recommendations | PASS |
 
 ### Observations
+
 - The system performs reliably for structured queries  
 - Outputs remain grounded in product + review data  
-- Failure cases are handled explicitly (no hallucination)
+- While all test cases passed under the defined checks, some outputs for vague queries can be generic rather than highly specific 
 
 ### Limitations
 - Very vague queries can lead to generic recommendations  
@@ -111,6 +132,8 @@ All test cases passed under the defined checks.
 - Used synthetic dataset due to scraping constraints
 - Relied on LLM for multilingual output
 - Kept frontend minimal to focus on backend system design
+- Did not use embedding-based retrieval due to time constraints and simplicity goals
+- Avoided agent frameworks to keep the pipeline deterministic and easier to debug
 
 ## Failure Handling
 
