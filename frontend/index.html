@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mumz Gift Finder</title>
+</head>
+<body style="font-family:Arial, sans-serif; margin:40px; background-color: aliceblue;">
+  <h2>Mumz Gift Finder</h2>
+
+  <input type="text" id="query" placeholder="Enter gift query..." style="width:300px;">
+  <button onclick="search()">Find Gifts</button>
+
+  <pre id="result"></pre>
+
+  <script>
+    async function search() {
+      const query = document.getElementById("query").value;
+
+      const res = await fetch("http://127.0.0.1:8000/find-gifts", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({query})
+      });
+
+      const data = await res.json();
+    //   document.getElementById("result").innerText = data.recommendations.map(p => `${p.name} - ${p.price_aed} AED\n${p.reasoning}\n\n`).join("\n")
+    
+    const resultDiv = document.getElementById("result");
+
+    if (data.out_of_scope) {
+    resultDiv.innerText = "This query is outside the available categories of baby & mom products.";
+    }
+    else if (data.recommendations.length === 0) {
+    resultDiv.innerText = "No suitable products found for this query.";
+    }
+    else {
+    resultDiv.innerText = data.recommendations.map(p => 
+        `${p.name} - ${p.price_aed} AED\n${p.reasoning}\n\n`
+    ).join("\n");
+    }
+}
+  </script>
+</body>
+</html>

@@ -1,0 +1,412 @@
+[
+  {
+    "id": "P001",
+    "name": "Fisher-Price Soft Sensory Rattle",
+    "name_ar": "خشخيشة فيشر برايس الحسية الناعمة",
+    "category": "Toys",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 49,
+    "brand": "Fisher-Price",
+    "description": "A soft, colorful rattle designed to stimulate baby's senses with gentle sounds and bright colors.",
+    "tags": ["sensory", "rattle", "newborn", "soft toy", "infant"],
+    "reviews": [
+      {
+        "text": "I gifted this to my sister for her baby shower and she absolutely loved it. The baby couldn't put it down!",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Bought as a gift for a friend's newborn. She messaged me a week later saying the baby sleeps with it.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Great quality but the rattle sound is a bit loud for my taste.",
+        "gifting_intent": false,
+        "rating": 3
+      },
+      {
+        "text": "Perfect gift for a baby shower. Affordable, safe, and looks adorable.",
+        "gifting_intent": true,
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "P002",
+    "name": "Infantino Squeeze & Teethe Elephant",
+    "name_ar": "لعبة الفيل للعض من إنفانتينو",
+    "category": "Toys",
+    "age_min_months": 3,
+    "age_max_months": 18,
+    "price_aed": 65,
+    "brand": "Infantino",
+    "description": "A BPA-free silicone teether shaped like an elephant, perfect for soothing sore gums during teething.",
+    "tags": ["teether", "silicone", "BPA-free", "elephant", "sensory"],
+    "reviews": [
+      {
+        "text": "Gifted this to a colleague with a 4-month-old. She told me it saved her sanity during teething!",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "My go-to gift for new moms. Easy to clean, safe, and babies love it.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Works well but I wish it came in more colors.",
+        "gifting_intent": false,
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "P003",
+    "name": "Skip Hop Bandana Buddies Activity Toy",
+    "name_ar": "لعبة بانداتا بوديز من سكيب هوب",
+    "category": "Toys",
+    "age_min_months": 3,
+    "age_max_months": 12,
+    "price_aed": 120,
+    "brand": "Skip Hop",
+    "description": "An adorable multi-sensory activity toy with crinkle wings, teether, and rattle elements to engage babies.",
+    "tags": ["activity toy", "multi-sensory", "crinkle", "rattle", "teether"],
+    "reviews": [
+      {
+        "text": "I always gift this to new moms. It's the gift that keeps giving — babies are obsessed.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Bought for my nephew. My sister called it the best gift he received at his baby shower.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "High quality but pricey. Worth it for a gift, maybe not for everyday use.",
+        "gifting_intent": true,
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "P004",
+    "name": "Chicco Natural Feeling Baby Bottle Set",
+    "name_ar": "طقم زجاجات الرضاعة الطبيعية من تشيكو",
+    "category": "Feeding",
+    "age_min_months": 0,
+    "age_max_months": 24,
+    "price_aed": 155,
+    "brand": "Chicco",
+    "description": "A set of 3 anti-colic baby bottles with natural feeling nipples that mimic breastfeeding.",
+    "tags": ["bottle", "feeding", "anti-colic", "newborn", "breastfeeding"],
+    "reviews": [
+      {
+        "text": "Best gift I ever gave a new mom. She specifically asked for these after she ran out.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Practical and thoughtful gift. Every new mom needs these.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "The nipple flow is a bit fast for my newborn.",
+        "gifting_intent": false,
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": "P005",
+    "name": "Aden + Anais Classic Muslin Swaddle Blankets (4-pack)",
+    "name_ar": "طقم مناشف التقميط الموسلين من آدن وأنيس",
+    "category": "Nursery",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 185,
+    "brand": "Aden + Anais",
+    "description": "4-pack of breathable, soft muslin swaddle blankets in beautiful prints. A staple for every new mom.",
+    "tags": ["swaddle", "muslin", "blanket", "newborn", "nursery"],
+    "reviews": [
+      {
+        "text": "This is my standard baby shower gift. Every single mom I've gifted this to has reordered.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "I received this as a gift and I cannot recommend it enough. Bought two more sets myself.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Beautiful prints. Great for gifting because they look luxurious.",
+        "gifting_intent": true,
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "P006",
+    "name": "Munchkin Soothing White Noise Machine",
+    "name_ar": "جهاز الضوضاء البيضاء من مانشكين",
+    "category": "Nursery",
+    "age_min_months": 0,
+    "age_max_months": 36,
+    "price_aed": 170,
+    "brand": "Munchkin",
+    "description": "Portable white noise machine with multiple soothing sounds to help babies sleep anywhere.",
+    "tags": ["sleep", "white noise", "portable", "nursery", "soothing"],
+    "reviews": [
+      {
+        "text": "Gifted this to my best friend when she had her baby. She said it was the most useful gift she got.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "I bought this as a gift after my own baby loved it. Now I gift it to every new mom I know.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Excellent product. The ocean sounds setting is our favourite.",
+        "gifting_intent": false,
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "P007",
+    "name": "Sophie la Girafe Classic Teether",
+    "name_ar": "لعبة العض الكلاسيكية سوفي الزرافة",
+    "category": "Toys",
+    "age_min_months": 3,
+    "age_max_months": 18,
+    "price_aed": 145,
+    "brand": "Sophie la Girafe",
+    "description": "The iconic French teething toy made from 100% natural rubber and food paint. A global mom favorite.",
+    "tags": ["teether", "natural rubber", "iconic", "classic", "sensory"],
+    "reviews": [
+      {
+        "text": "Sophie is THE gift for babies. Every mom I know has one. Gifted it 6 times.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Gifted this and the mom literally cried happy tears. It's a classic for a reason.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Pricey for a teether but worth it. Lasts forever.",
+        "gifting_intent": false,
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "P008",
+    "name": "VTech Sit-to-Stand Learning Walker",
+    "name_ar": "مشاية التعلم من في تك",
+    "category": "Toys",
+    "age_min_months": 9,
+    "age_max_months": 36,
+    "price_aed": 210,
+    "brand": "VTech",
+    "description": "Interactive learning walker that grows with baby, featuring lights, music, and educational activities.",
+    "tags": ["walker", "educational", "musical", "learning", "toddler"],
+    "reviews": [
+      {
+        "text": "Best first birthday gift ever. The baby started walking within two weeks of getting this.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Gifted this for a first birthday. The mom said it's the only toy he plays with.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "A bit noisy but kids love it. Batteries drain fast.",
+        "gifting_intent": false,
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": "P009",
+    "name": "Babyzen YOYO Stroller Accessories Kit",
+    "name_ar": "طقم ملحقات عربة يويو من بيبيزن",
+    "category": "Travel",
+    "age_min_months": 0,
+    "age_max_months": 48,
+    "price_aed": 195,
+    "brand": "Babyzen",
+    "description": "Premium accessories kit for the YOYO stroller including rain cover, organizer, and footmuff.",
+    "tags": ["stroller", "accessories", "travel", "premium", "YOYO"],
+    "reviews": [
+      {
+        "text": "Gifted the organizer to a friend who has a YOYO. She uses it every single day.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Not a gift but very useful.",
+        "gifting_intent": false,
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "P010",
+    "name": "Ergobaby Omni 360 Baby Carrier",
+    "name_ar": "حامل الأطفال إرغوبيبي أومني 360",
+    "category": "Carriers",
+    "age_min_months": 0,
+    "age_max_months": 48,
+    "price_aed": 650,
+    "brand": "Ergobaby",
+    "description": "All-position baby carrier suitable from newborn, with lumbar support for parents and ergonomic seat for baby.",
+    "tags": ["carrier", "ergonomic", "newborn", "toddler", "lumbar support"],
+    "reviews": [
+      {
+        "text": "Received this as a gift and it changed my life as a new mom. Hands-free and baby is happy.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Pricey but worth gifting. The mom I gave it to uses it daily.",
+        "gifting_intent": true,
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "P011",
+    "name": "Lovevery The Play Gym",
+    "name_ar": "نشاط اللعب من لوفيري",
+    "category": "Toys",
+    "age_min_months": 0,
+    "age_max_months": 12,
+    "price_aed": 550,
+    "brand": "Lovevery",
+    "description": "Stage-based developmental play gym with 35+ activities designed by child development experts.",
+    "tags": ["play gym", "developmental", "montessori", "expert-designed", "newborn"],
+    "reviews": [
+      {
+        "text": "The most thoughtful baby gift I've ever given. The mom was genuinely moved.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "I group-gifted this with two friends for a baby shower. It was the star of the show.",
+        "gifting_intent": true,
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "P012",
+    "name": "Tommee Tippee Baby Bath Essentials Set",
+    "name_ar": "طقم أساسيات حمام الطفل من تومي تيبي",
+    "category": "Bath",
+    "age_min_months": 0,
+    "age_max_months": 18,
+    "price_aed": 130,
+    "brand": "Tommee Tippee",
+    "description": "Complete bath set including thermometer, bath seat, soft brush, and hooded towel.",
+    "tags": ["bath", "thermometer", "towel", "essentials", "newborn"],
+    "reviews": [
+      {
+        "text": "Perfect baby shower gift. Everything you need in one box.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Gifted this to three different moms. All of them said it was practical and complete.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "The thermometer is a bit fragile but the rest of the set is excellent.",
+        "gifting_intent": false,
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": "P013",
+    "name": "Graco DreamGlider Gliding Swing",
+    "name_ar": "أرجوحة غريكو دريم غلايدر",
+    "category": "Nursery",
+    "age_min_months": 0,
+    "age_max_months": 6,
+    "price_aed": 480,
+    "brand": "Graco",
+    "description": "Converts from a gliding swing to a gliding seat, with soothing vibrations and 10 songs.",
+    "tags": ["swing", "soothing", "vibration", "nursery", "newborn"],
+    "reviews": [
+      {
+        "text": "Group gifted this for a baby shower. The mom cried when she opened it. Life-changing for colic.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "Expensive but worth every dirham. Gifted it and the mom said her baby only sleeps in it.",
+        "gifting_intent": true,
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "P014",
+    "name": "Nuby Printed Bib Set (5-pack)",
+    "name_ar": "طقم مريلات نوبي المطبوعة 5 قطع",
+    "category": "Feeding",
+    "age_min_months": 3,
+    "age_max_months": 24,
+    "price_aed": 55,
+    "brand": "Nuby",
+    "description": "Soft, waterproof bibs with cute prints, adjustable snaps, and deep crumb catcher pocket.",
+    "tags": ["bib", "feeding", "waterproof", "cute", "set"],
+    "reviews": [
+      {
+        "text": "Cute and practical gift for any new mom. They always need bibs.",
+        "gifting_intent": true,
+        "rating": 4
+      },
+      {
+        "text": "Good quality but nothing special as a gift.",
+        "gifting_intent": false,
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": "P015",
+    "name": "Hatch Rest+ Sound Machine & Night Light",
+    "name_ar": "جهاز الصوت والإضاءة الليلية هاتش ريست+",
+    "category": "Nursery",
+    "age_min_months": 0,
+    "age_max_months": 60,
+    "price_aed": 320,
+    "brand": "Hatch",
+    "description": "Smart sound machine, night light, and time-to-rise clock all in one. App-controlled for convenience.",
+    "tags": ["sleep", "smart", "night light", "app-controlled", "sound machine"],
+    "reviews": [
+      {
+        "text": "The ultimate gift for any new mom. Bought it as a gift and she messages me weekly to thank me.",
+        "gifting_intent": true,
+        "rating": 5
+      },
+      {
+        "text": "I gift this to every new mom I know now. It pays for itself in sleep saved.",
+        "gifting_intent": true,
+        "rating": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "query": "gift for 6 month old under 100 AED",
+    "type": "normal"
+  },
+  {
+    "query": "gift for newborn baby shower",
+    "type": "normal"
+  },
+  {
+    "query": "gift under 10 AED",
+    "type": "edge"
+  },
+  {
+    "query": "gift for 3 year old under 50 AED",
+    "type": "edge"
+  },
+  {
+    "query": "laptop for coding",
+    "type": "invalid"
+  },
+  {
+    "query": "gift for baby",
+    "type": "ambiguous"
+  },
+  {
+    "query": "cheap gift for 1 month old",
+    "type": "normal"
+  },
+  {
+    "query": "birthday gift for toddler",
+    "type": "normal"
+  },
+  {
+    "query": "",
+    "type": "invalid"
+  },
+  {
+    "query": "gift for twins 6 months old under 200",
+    "type": "complex"
+  }
+]
