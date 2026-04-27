@@ -107,20 +107,20 @@ All test cases passed under the defined checks.
 
 
 ## Tradeoffs
-Used TF-IDF instead of embeddings for speed and simplicity
-Used synthetic dataset due to scraping constraints
-Relied on LLM for multilingual output
-Kept frontend minimal to focus on backend system design
+- Used TF-IDF instead of embeddings for speed and simplicity
+- Used synthetic dataset due to scraping constraints
+- Relied on LLM for multilingual output
+- Kept frontend minimal to focus on backend system design
 
 ## Failure Handling
 
 The system avoids hallucination by:
-Returning out_of_scope = true for unrelated queries
-Returning empty results + uncertainty message when no match exists
-Restricting recommendations strictly to catalog data
+- Returning out_of_scope = true for unrelated queries
+- Returning empty results + uncertainty message when no match exists
+- Restricting recommendations strictly to catalog data
 
 ## What I would improve next
-Replace TF-IDF with embedding-based retrieval
-Improve Arabic quality with better post-processing
-Add personalization (child age, preferences)
-Deploy as a chat-based assistant (e.g., WhatsApp)
+- Replace TF-IDF with embedding-based retrieval
+- Improve Arabic quality with better post-processing
+- Add personalization (child age, preferences)
+- Deploy as a chat-based assistant (e.g., WhatsApp)
